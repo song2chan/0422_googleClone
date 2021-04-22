@@ -1,0 +1,42 @@
+.content {
+  text-align: center;
+}
+
+.search-bar {
+  width: 500px;
+}
+
+h1 {
+  margin-top: 200px;
+  font-size: 90px;
+}
+
+/*
+.blue {
+  color: blue;
+}
+.red {
+  color: red;
+}
+.yellow {
+  color: yellow;
+}
+.green {
+  color: green;
+} */
+
+h1 span:nth-child(1), h1 span:nth-child(4) {
+  color: #4285f4;
+}
+
+h1 span:nth-child(2), h1 span:nth-child(6) {
+  color: red;
+}
+
+h1 span:nth-child(3) {
+  color: yellow;
+}
+
+h1 span:nth-child(5) {
+  color: green;
+}
